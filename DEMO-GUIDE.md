@@ -4,7 +4,7 @@
 
 Extract the portable ZIP and run its launcher on the actual demonstration computer. Check both reference examples, the attribution view, the Evidence page and a JSON export. Keep the server terminal open. The portable build has all runtime assets locally, so Internet access and a hosting account are unnecessary.
 
-For the hosted build, visit once while connected, wait for **OFFLINE READY** in the footer, then test a reload without Internet access on that device. Browser caching can be cleared by the browser or an administrator; keep the portable folder as the dependable fallback. An initial hosted visit requires network access and access to the private Site.
+For the hosted build, visit once while connected, wait for **OFFLINE READY** in the footer, then test a reload without Internet access on that device. Browser caching can be cleared by the browser or an administrator; keep the portable folder as the dependable fallback. An initial hosted visit requires network access.
 
 Use public demonstration images, and avoid putting real patient-identifying material into a public presentation.
 
