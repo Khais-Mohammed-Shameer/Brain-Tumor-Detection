@@ -1,0 +1,139 @@
+{
+  "commit": "30470ae8eb2e4a523df7dc45dd5323903cb98365",
+  "tree_url": "https://api.github.com/repos/MohamedAliHabib/Brain-Tumor-Detection/git/trees/30470ae8eb2e4a523df7dc45dd5323903cb98365?recursive=1",
+  "tree_truncated": false,
+  "checkpoints": [
+    {
+      "file": "cnn-parameters-improvement-01-0.50.model",
+      "local_git_blob_sha1": "4be7aaacad712ea34b416bdbd4d60463e2f7e69a",
+      "upstream_git_blob_sha1": "4be7aaacad712ea34b416bdbd4d60463e2f7e69a",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-02-0.67.model",
+      "local_git_blob_sha1": "b89e2713cdd40096dbba72a9cae3d3e7a215d3fb",
+      "upstream_git_blob_sha1": "b89e2713cdd40096dbba72a9cae3d3e7a215d3fb",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-03-0.81.model",
+      "local_git_blob_sha1": "43cbe6636de81d6420dd8c98a4c69554f3232885",
+      "upstream_git_blob_sha1": "43cbe6636de81d6420dd8c98a4c69554f3232885",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-04-0.63.model",
+      "local_git_blob_sha1": "e10d08d9875010440defc06fbfcc51b12679f33b",
+      "upstream_git_blob_sha1": "e10d08d9875010440defc06fbfcc51b12679f33b",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-05-0.77.model",
+      "local_git_blob_sha1": "19cd3984a21460ac5717dd0cee0f4110c26c9a56",
+      "upstream_git_blob_sha1": "19cd3984a21460ac5717dd0cee0f4110c26c9a56",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-06-0.78.model",
+      "local_git_blob_sha1": "d3873a6d97d9ec4eaac577f8b84662c85590fbe4",
+      "upstream_git_blob_sha1": "d3873a6d97d9ec4eaac577f8b84662c85590fbe4",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-07-0.73.model",
+      "local_git_blob_sha1": "4dd321d0f32c0f0ed9cf92f01510f8a7f00b6513",
+      "upstream_git_blob_sha1": "4dd321d0f32c0f0ed9cf92f01510f8a7f00b6513",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-08-0.85.model",
+      "local_git_blob_sha1": "028642b2d9b11c73474f23c55f12aad430683a44",
+      "upstream_git_blob_sha1": "028642b2d9b11c73474f23c55f12aad430683a44",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-09-0.81.model",
+      "local_git_blob_sha1": "3ceee9edf7baa200addf22e31a4c9db36de10a54",
+      "upstream_git_blob_sha1": "3ceee9edf7baa200addf22e31a4c9db36de10a54",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-10-0.81.model",
+      "local_git_blob_sha1": "363ade9efcd28ca024e879993cd61b2c3e8fc415",
+      "upstream_git_blob_sha1": "363ade9efcd28ca024e879993cd61b2c3e8fc415",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-11-0.89.model",
+      "local_git_blob_sha1": "a0624ac1d40e2ced1823323064ce8dc4ced7f808",
+      "upstream_git_blob_sha1": "a0624ac1d40e2ced1823323064ce8dc4ced7f808",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-12-0.85.model",
+      "local_git_blob_sha1": "c844dc05cb6d2ccfc505274634396fe0c7b0cf53",
+      "upstream_git_blob_sha1": "c844dc05cb6d2ccfc505274634396fe0c7b0cf53",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-13-0.83.model",
+      "local_git_blob_sha1": "a36b42741cb325a078b984f0c0d5960fc54eb8ba",
+      "upstream_git_blob_sha1": "a36b42741cb325a078b984f0c0d5960fc54eb8ba",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-14-0.85.model",
+      "local_git_blob_sha1": "6ae552f979a7d5158fb79577e0f2a53340cb320e",
+      "upstream_git_blob_sha1": "6ae552f979a7d5158fb79577e0f2a53340cb320e",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-15-0.86.model",
+      "local_git_blob_sha1": "b33887920d0d51cc07722d1704a82c2683d2ef61",
+      "upstream_git_blob_sha1": "b33887920d0d51cc07722d1704a82c2683d2ef61",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-16-0.87.model",
+      "local_git_blob_sha1": "278f576a2edc604e864bd314e99cce49f5465ccf",
+      "upstream_git_blob_sha1": "278f576a2edc604e864bd314e99cce49f5465ccf",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-18-0.90.model",
+      "local_git_blob_sha1": "b925e59656a04766eb76e6ddd4ff07a12a8aa7c4",
+      "upstream_git_blob_sha1": "b925e59656a04766eb76e6ddd4ff07a12a8aa7c4",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-19-0.89.model",
+      "local_git_blob_sha1": "cbebdfc6ee1f1cd7354237382221481b90782dd1",
+      "upstream_git_blob_sha1": "cbebdfc6ee1f1cd7354237382221481b90782dd1",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-21-0.83.model",
+      "local_git_blob_sha1": "8d9f7ae2e67268d9384cc981c546919f5f16b078",
+      "upstream_git_blob_sha1": "8d9f7ae2e67268d9384cc981c546919f5f16b078",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-22-0.75.model",
+      "local_git_blob_sha1": "a8437f52d4ae6ab540af410265d9f688061f8ae6",
+      "upstream_git_blob_sha1": "a8437f52d4ae6ab540af410265d9f688061f8ae6",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-23-0.91.model",
+      "local_git_blob_sha1": "77be28711a9a2e4af267ecc5557a9e1d06faf55c",
+      "upstream_git_blob_sha1": "77be28711a9a2e4af267ecc5557a9e1d06faf55c",
+      "exact_match": true
+    },
+    {
+      "file": "cnn-parameters-improvement-24-0.85.model",
+      "local_git_blob_sha1": "55722cb49c0f8dfb3861f4dcb36e20d1fa1c2c2c",
+      "upstream_git_blob_sha1": "55722cb49c0f8dfb3861f4dcb36e20d1fa1c2c2c",
+      "exact_match": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "Numerical compatibility only, not clinical performance.",
+  "tolerance": 0.00002,
+  "results": [
+    {
+      "fixture": "reference-tumor",
+      "python_score": 0.9997071623802185,
+      "javascript_score": 0.9997071623802185,
+      "absolute_delta": 0
+    },
+    {
+      "fixture": "reference-no-tumor",
+      "python_score": 0.006684683263301849,
+      "javascript_score": 0.006684768944978714,
+      "absolute_delta": 8.568167686462402e-8
+    }
+  ],
+  "repeated_prediction_tensor_leak": false
+}

@@ -1,0 +1,37 @@
+{
+  "repository": "https://github.com/MohamedAliHabib/Brain-Tumor-Detection",
+  "commit": "30470ae8eb2e4a523df7dc45dd5323903cb98365",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/MohamedAliHabib/Brain-Tumor-Detection/30470ae8eb2e4a523df7dc45dd5323903cb98365/README.md",
+      "bytes": 4732,
+      "sha256": "f070b31ac4beb70002189871f7ef3ff5d66f2aea5df15ad2731fb2559434c63c"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/MohamedAliHabib/Brain-Tumor-Detection/30470ae8eb2e4a523df7dc45dd5323903cb98365/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "Brain Tumor Detection.ipynb",
+      "url": "https://raw.githubusercontent.com/MohamedAliHabib/Brain-Tumor-Detection/30470ae8eb2e4a523df7dc45dd5323903cb98365/Brain%20Tumor%20Detection.ipynb",
+      "bytes": 2027418,
+      "sha256": "18ac319165dfa99fe06b97b927311ea1516dc783db393bfd5cdeb1f52ff4a42d"
+    },
+    {
+      "path": "Data Augmentation.ipynb",
+      "url": "https://raw.githubusercontent.com/MohamedAliHabib/Brain-Tumor-Detection/30470ae8eb2e4a523df7dc45dd5323903cb98365/Data%20Augmentation.ipynb",
+      "bytes": 7644,
+      "sha256": "88e3638fe02f9dd3c543bc82f45c8f03b05b18401264968c49abb53c8edbc08f"
+    },
+    {
+      "path": "models/cnn-parameters-improvement-23-0.91.model",
+      "url": "https://raw.githubusercontent.com/MohamedAliHabib/Brain-Tumor-Detection/30470ae8eb2e4a523df7dc45dd5323903cb98365/models/cnn-parameters-improvement-23-0.91.model",
+      "bytes": 166480,
+      "sha256": "e14c6af5b389c603242b171db841c407b6bfe65150b0d32dbd6590ec4d178e8f",
+      "identical_to_received": true
+    }
+  ]
+}

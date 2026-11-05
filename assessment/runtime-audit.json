@@ -1,0 +1,117 @@
+{
+  "scope": "Functional audit only; sample images are from the upstream project and are not an unseen test set.",
+  "versions": {
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "streamlit": "1.66.1",
+    "opencv": "5.0.0",
+    "numpy": "2.5.4"
+  },
+  "model": {
+    "input_shape": [
+      null,
+      240,
+      240,
+      3
+    ],
+    "output_shape": [
+      null,
+      1
+    ],
+    "parameters": 11137
+  },
+  "converted_weights_equal_legacy": {
+    "conv0/conv0/kernel:0": true,
+    "conv0/conv0/bias:0": true,
+    "bn0/bn0/gamma:0": true,
+    "bn0/bn0/beta:0": true,
+    "bn0/bn0/moving_mean:0": true,
+    "bn0/bn0/moving_variance:0": true,
+    "fc/fc/kernel:0": true,
+    "fc/fc/bias:0": true
+  },
+  "converted_file_load": {
+    "success": false,
+    "error_type": "TypeError",
+    "error": "Could not locate class 'Functional'. Make sure custom classes and functions are decorated with `@keras.saving.register_keras_serializable()`. If they are already decorated, make sure they are all imported so that the decorator is run before trying to load them. Full object config: {'module': 'tf_keras.src.engine.functional', 'class_name': 'Functional', 'config': {'name': 'model', 'trainable': True, 'layers': [{'module': 'keras.layers', 'class_name': 'InputLayer', 'config': {'batch_input_shape': [None, 240, 240, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_1', 'optional': False}, 'registered_name': None, 'name': 'input_1', 'inbound_nodes': []}, {'module': 'keras.layers', 'class_name': 'ZeroPadding2D', 'config': {'name': 'zero_padding2d', 'trainable': True, 'dtype': 'float32', 'padding': [[2, 2], [2, 2]], 'data_format': 'channels_last'}, 'registered_name': None, 'build_config': {'input_shape': [None, 240, 240, 3]}, 'name': 'zero_padding2d', 'inbound_nodes': [[['input_1', 0, 0, {}]]]}, {'module': 'keras.layers', 'class_name': 'Conv2D', 'config': {'name': 'conv0', 'trainable': True, 'dtype': 'float32', 'filters': 32, 'kernel_size': [7, 7], 'strides': [1, 1], 'padding': 'valid', 'data_format': 'channels_last', 'dilation_rate': [1, 1], 'groups': 1, 'activation': 'linear', 'use_bias': True, 'kernel_initializer': {'module': 'keras.initializers', 'class_name': 'GlorotUniform', 'config': {'seed': None}, 'registered_name': None}, 'bias_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'kernel_regularizer': None, 'bias_regularizer': None, 'activity_regularizer': None, 'kernel_constraint': None, 'bias_constraint': None}, 'registered_name': None, 'build_config': {'input_shape': [None, 244, 244, 3]}, 'name': 'conv0', 'inbound_nodes': [[['zero_padding2d', 0, 0, {}]]]}, {'module': 'keras.layers', 'class_name': 'BatchNormalization', 'config': {'name': 'bn0', 'trainable': True, 'dtype': 'float32', 'axis': [3], 'momentum': 0.99, 'epsilon': 0.001, 'center': True, 'scale': True, 'beta_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'gamma_initializer': {'module': 'keras.initializers', 'class_name': 'Ones', 'config': {}, 'registered_name': None}, 'moving_mean_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'moving_variance_initializer': {'module': 'keras.initializers', 'class_name': 'Ones', 'config': {}, 'registered_name': None}, 'beta_regularizer': None, 'gamma_regularizer': None, 'beta_constraint': None, 'gamma_constraint': None}, 'registered_name': None, 'build_config': {'input_shape': [None, 238, 238, 32]}, 'name': 'bn0', 'inbound_nodes': [[['conv0', 0, 0, {}]]]}, {'module': 'keras.layers', 'class_name': 'Activation', 'config': {'name': 'activation', 'trainable': True, 'dtype': 'float32', 'activation': 'relu'}, 'registered_name': None, 'build_config': {'input_shape': [None, 238, 238, 32]}, 'name': 'activation', 'inbound_nodes': [[['bn0', 0, 0, {}]]]}, {'module': 'keras.layers', 'class_name': 'MaxPooling2D', 'config': {'name': 'max_pool0', 'trainable': True, 'dtype': 'float32', 'pool_size': [4, 4], 'padding': 'valid', 'strides': [4, 4], 'data_format': 'channels_last'}, 'registered_name': None, 'build_config': {'input_shape': [None, 238, 238, 32]}, 'name': 'max_pool0', 'inbound_nodes': [[['activation', 0, 0, {}]]]}, {'module': 'keras.layers', 'class_name': 'MaxPooling2D', 'config': {'name': 'max_pool1', 'trainable': True, 'dtype': 'float32', 'pool_size': [4, 4], 'padding': 'valid', 'strides': [4, 4], 'data_format': 'channels_last'}, 'registered_name': None, 'build_config': {'input_shape': [None, 59, 59, 32]}, 'name': 'max_pool1', 'inbound_nodes': [[['max_pool0', 0, 0, {}]]]}, {'module': 'keras.layers', 'class_name': 'Flatten', 'config': {'name': 'flatten', 'trainable': True, 'dtype': 'float32', 'data_format': 'channels_last'}, 'registered_name': None, 'build_config': {'input_shape': [None, 14, 14, 32]}, 'name': 'flatten', 'inbound_nodes': [[['max_pool1', 0, 0, {}]]]}, {'module': 'keras.layers', 'class_name': 'Dense', 'config': {'name': 'fc', 'trainable': True, 'dtype': 'float32', 'units': 1, 'activation': 'sigmoid', 'use_bias': True, 'kernel_initializer': {'module': 'keras.initializers', 'class_name': 'GlorotUniform', 'config': {'seed': None}, 'registered_name': None}, 'bias_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'kernel_regularizer': None, 'bias_regularizer': None, 'activity_regularizer': None, 'kernel_constraint': None, 'bias_constraint': None}, 'registered_name': None, 'build_config': {'input_shape': [None, 6272]}, 'name': 'fc', 'inbound_nodes': [[['flatten', 0, 0, {}]]]}], 'input_layers': [['input_1', 0, 0]], 'output_layers': [['fc', 0, 0]]}, 'registered_name': 'Functional', 'build_config': {'input_shape': [None, 240, 240, 3]}, 'compile_config': None}"
+  },
+  "fixture_sources": [
+    {
+      "file": "audit-fixtures/upstream_tumor_label.jpg",
+      "url": "https://raw.githubusercontent.com/MohamedAliHabib/Brain-Tumor-Detection/30470ae8eb2e4a523df7dc45dd5323903cb98365/yes/Y1.jpg",
+      "sha256": "27a43972bf6b6bb00fd071791c3925f422295c16f881ef8c395a9534f12cf0af"
+    },
+    {
+      "file": "audit-fixtures/upstream_no_tumor_label.jpeg",
+      "url": "https://raw.githubusercontent.com/MohamedAliHabib/Brain-Tumor-Detection/30470ae8eb2e4a523df7dc45dd5323903cb98365/no/1%20no.jpeg",
+      "sha256": "e4d9d83f89339366f4f77137d440a4c3b62e799a482ebfa6c79c9209d47ffdc9"
+    }
+  ],
+  "inference_checks": [
+    {
+      "input": "black_non_mri",
+      "app_score": 0.13388027250766754,
+      "app_label": "no_tumor",
+      "upstream_preprocessing_score": 0.13388027250766754,
+      "max_input_tensor_difference": 0.0
+    },
+    {
+      "input": "white_non_mri",
+      "app_score": 0.016185354441404343,
+      "app_label": "no_tumor",
+      "upstream_preprocessing_score": 0.016185354441404343,
+      "max_input_tensor_difference": 0.0
+    },
+    {
+      "input": "random_noise_non_mri",
+      "app_score": 0.9999350309371948,
+      "app_label": "tumor",
+      "upstream_preprocessing_score": 0.9999929666519165,
+      "max_input_tensor_difference": 0.984313725490196
+    },
+    {
+      "input": "upstream_tumor_label",
+      "app_score": 0.9992830157279968,
+      "app_label": "tumor",
+      "upstream_preprocessing_score": 0.9997071623802185,
+      "max_input_tensor_difference": 0.12941176470588234
+    },
+    {
+      "input": "upstream_no_tumor_label",
+      "app_score": 0.007085765246301889,
+      "app_label": "no_tumor",
+      "upstream_preprocessing_score": 0.006684683263301849,
+      "max_input_tensor_difference": 0.050980392156862786
+    }
+  ],
+  "streamlit_checks": {
+    "startup_exceptions": [],
+    "startup_errors": [],
+    "startup_success": [
+      "C.A.R.E. Diagnostics System Online: Connected to Neural Matrix"
+    ],
+    "missing_sample_button": {
+      "selected_image": null,
+      "errors": [],
+      "exceptions": []
+    },
+    "selected_sample": {
+      "exceptions": [],
+      "output": [
+        "**C.A.R.E. Confidence:** 99.93% probability of abnormal tissue mass presence."
+      ]
+    },
+    "black_non_mri": {
+      "exceptions": [],
+      "output": [
+        "**C.A.R.E. Confidence:** 86.61% probability of standard healthy scan bounds."
+      ]
+    },
+    "invalid_image": {
+      "exceptions": [
+        "cannot identify image file '<workspace>/assessment/audit-fixtures/invalid.png'"
+      ],
+      "errors": []
+    }
+  }
+}

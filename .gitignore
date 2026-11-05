@@ -179,3 +179,14 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# C.A.R.E. application and local research outputs
+node_modules/
+.sites-runtime/
+playwright-report/
+test-results/
+outputs/
+*.tsbuildinfo
+research/data/
+research/runs/
+.openai/hosting.json
+.DS_Store

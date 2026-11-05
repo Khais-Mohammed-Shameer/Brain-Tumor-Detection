@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve the supplied Python originals byte-for-byte.
+assessment/received/app.py -text
+assessment/received/convert.py -text

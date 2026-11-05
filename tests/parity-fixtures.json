@@ -1,0 +1,24 @@
+[
+  {
+    "file": "reference-tumor.jpg",
+    "crop": {
+      "x": 20,
+      "y": 25,
+      "width": 137,
+      "height": 165
+    },
+    "tensor": "reference-tumor.f32",
+    "image_sha256": "27a43972bf6b6bb00fd071791c3925f422295c16f881ef8c395a9534f12cf0af"
+  },
+  {
+    "file": "reference-no-tumor.jpeg",
+    "crop": {
+      "x": 92,
+      "y": 52,
+      "width": 447,
+      "height": 523
+    },
+    "tensor": "reference-no-tumor.f32",
+    "image_sha256": "e4d9d83f89339366f4f77137d440a4c3b62e799a482ebfa6c79c9209d47ffdc9"
+  }
+]

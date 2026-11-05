@@ -1,0 +1,20 @@
+[
+  {
+    "file": "app.py",
+    "bytes": 8836,
+    "sha256": "cd62f1a5495bb9d9a64a6af9e66e8b783f55408c91b0956b817e414de3629c54",
+    "source": "<original-downloads>/app.py"
+  },
+  {
+    "file": "convert.py",
+    "bytes": 2640,
+    "sha256": "1f27983b2ebcbb48d2314f03d2d7872d3ffd2e5809fe32ddf834042c6a9b3291",
+    "source": "<original-downloads>/convert.py"
+  },
+  {
+    "file": "models.zip",
+    "bytes": 2978499,
+    "sha256": "b941396b4b366adcb1d7b3c053002abf2a6ad7f3f8acaedadfad1d5f6bd16943",
+    "source": "<original-downloads>/models.zip"
+  }
+]

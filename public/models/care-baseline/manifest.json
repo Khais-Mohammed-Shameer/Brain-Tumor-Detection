@@ -1,0 +1,83 @@
+{
+  "id": "care-reference-cnn-v1",
+  "format": "care-arrays-v1",
+  "parameters": 11137,
+  "input": [
+    240,
+    240,
+    3
+  ],
+  "output": "sigmoid tumor-class score",
+  "threshold": 0.5,
+  "source": {
+    "author": "Mohamed Ali Habib",
+    "repository": "https://github.com/MohamedAliHabib/Brain-Tumor-Detection",
+    "commit": "30470ae8eb2e4a523df7dc45dd5323903cb98365",
+    "checkpoint": "cnn-parameters-improvement-23-0.91.model",
+    "sha256": "e14c6af5b389c603242b171db841c407b6bfe65150b0d32dbd6590ec4d178e8f",
+    "license": "Apache-2.0"
+  },
+  "tensors": [
+    {
+      "name": "conv_kernel",
+      "shape": [
+        7,
+        7,
+        3,
+        32
+      ],
+      "length": 4704
+    },
+    {
+      "name": "conv_bias",
+      "shape": [
+        32
+      ],
+      "length": 32
+    },
+    {
+      "name": "bn_gamma",
+      "shape": [
+        32
+      ],
+      "length": 32
+    },
+    {
+      "name": "bn_beta",
+      "shape": [
+        32
+      ],
+      "length": 32
+    },
+    {
+      "name": "bn_mean",
+      "shape": [
+        32
+      ],
+      "length": 32
+    },
+    {
+      "name": "bn_variance",
+      "shape": [
+        32
+      ],
+      "length": 32
+    },
+    {
+      "name": "dense_kernel",
+      "shape": [
+        6272,
+        1
+      ],
+      "length": 6272
+    },
+    {
+      "name": "dense_bias",
+      "shape": [
+        1
+      ],
+      "length": 1
+    }
+  ],
+  "weights_sha256": "4779c8bb915a61f747f539c430c3f63dadb32351683cd11d94241b30216685a1"
+}

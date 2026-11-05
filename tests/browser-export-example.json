@@ -1,0 +1,35 @@
+{
+  "schema": "care-analysis-v1",
+  "model": "care-reference-cnn-v1",
+  "source": "https://github.com/MohamedAliHabib/Brain-Tumor-Detection/tree/30470ae8eb2e4a523df7dc45dd5323903cb98365",
+  "purpose": "Experimental image classification. Not a medical diagnosis.",
+  "timestamp": "2026-11-05T15:45:26.547Z",
+  "filename": "reference-no-tumor.jpeg",
+  "image_sha256": "e4d9d83f89339366f4f77137d440a4c3b62e799a482ebfa6c79c9209d47ffdc9",
+  "is_reference_example": true,
+  "reference_note": "From the source model dataset; not an independent test.",
+  "predicted_label": "no-tumor",
+  "tumor_class_score": 0.006684696301817894,
+  "threshold": 0.5,
+  "score_note": "Raw, uncalibrated sigmoid score; not a probability of disease.",
+  "quality_checks": {
+    "width": 630,
+    "height": 630,
+    "brightness": 29.72235827664399,
+    "contrast": 36.34181726355008,
+    "noiseRatio": 0.06796127482776694,
+    "foregroundFraction": 0.4809397833207357
+  },
+  "quality_note": "Basic image-quality checks do not establish MRI identity or clinical suitability.",
+  "crop": {
+    "x": 92,
+    "y": 52,
+    "width": 447,
+    "height": 523
+  },
+  "preprocessing": "BGR, Gaussian 5x5, threshold 45, erode/dilate 2, extreme crop, cubic 240x240, /255",
+  "elapsed_ms": 537.5999994277954,
+  "inference_ms": 257.5,
+  "backend": "webgl",
+  "independent_evaluation": "Not available for this release."
+}
